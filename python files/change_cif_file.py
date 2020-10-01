@@ -9,10 +9,10 @@ from ase.io import read, write
 import os
 
 
-def load_datagrid_sim(folder, target_folder, arr):
+def change_spec_elements(folder, target_folder, arr, element):
     '''
-    Load cif files from folder into ase crystal objects, simulate crystal
-    diffraction and represent data in timeseries
+    Load cif files from folder into ase crystal objects, change all elements 
+    O with specific other elements
     Args:
         folder (string): Where we load the data from.
         arr (list): List of cif filenames in folder.
@@ -24,7 +24,7 @@ def load_datagrid_sim(folder, target_folder, arr):
 
     '''
     filename_arr = []
-    a = 0
+    j = 0
     for file in arr:
         filename = os.sep.join([folder, file])
         filename_arr.append(file)
@@ -33,20 +33,22 @@ def load_datagrid_sim(folder, target_folder, arr):
         i = 0
         for symbol in symbols:
             if symbol == 'O':
-                structure.symbols[i] = 'Hf'
+                structure.symbols[i] = element
             i = i + 1
             
         print(structure.get_chemical_symbols())
         print(a)
         target_path = os.sep.join([target_folder, file])
         write(target_path, structure)
-        a = a + 1
+        j = j + 1
         
+# select the element you want to switch in crystal
+element = 'Hf'
+folder = r'C:\Python\Projects\crystal-phase-prediction\hfo2' # load data from this folder 
+arr = [f for f in os.listdir(folder) if not f.endswith('.ini')] # ignore hidden files in folder
+target_folder = r'C:\Python\Projects\crystal-phase-prediction\hfo2_del' # file where to store the new cif files
 
-folder = r'C:\Python\\Projects\Thesis\hfo2' 
-arr = [f for f in os.listdir(folder) if not f.endswith('.ini')]
-target_folder = r'C:\Python\\Projects\Thesis\Hfo2_new'   
-load_datagrid_sim(folder, target_folder, arr)
+change_spec_elements(folder, target_folder, arr, element)
 
 
 
