@@ -79,21 +79,15 @@ def smooth_datagrid(fd):
     
     return knn_fd
 
-folder = r"C:\Python\Projects\Thesis\Test"
-arr = os.listdir('Test')
+# %%
+
+folder = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs"
+arr = os.listdir('CIFs')
 x = np.linspace(1, 4, 1000)
 # change for hfo2 and zro2
-df_labels = pd.read_pickle('./data_labels/labels_zro2.pkl')
-df_labels['labels_0_4'] = df_labels['labels_0_4'].replace({'m': 0,
-                                                           'p-o': 1,
-                                                           'o': 2,
-                                                           't': 3,
-                                                           'unknown': 4})
-
-labels = df_labels['labels_0_4']
-# labels = labels[0:390]
+df_labels = pd.read_pickle(r'C:\Python\Projects\crystal-phase-prediction\data_labels\labels_all.pkl')
+labels = df_labels['new_labels']
 fd = load_datagrid_sim(folder, arr, x)
-
 fd_knn = smooth_datagrid(fd)
 
 # %%
@@ -124,13 +118,6 @@ plt.show()
 
 knn = KNeighborsClassifier(n_neighbors=10, metric='euclidean', 
                            multivariate_metric=True)
-'''
-knn.fit(X_train, y_train)
-pred = knn.predict(X_test)
-print(pred)
-score = knn.score(X_test, y_test)
-print(score)
-'''
 
 scores = cross_val_score(knn, fd_knn, labels, cv=10)
 print(scores)
