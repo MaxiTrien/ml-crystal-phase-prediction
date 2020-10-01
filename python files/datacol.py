@@ -54,13 +54,3 @@ print(df)
 df.to_pickle('probe_data.pkl')
 
 
-"""
-s = read(filename)
-view(s)
-# print(s.get_positions())
-atomic_number = s.get_atomic_numbers()
-unit_cell = s.get_cell()[:]
-
-print(atomic_number)
-print(unit_cell)
- """
