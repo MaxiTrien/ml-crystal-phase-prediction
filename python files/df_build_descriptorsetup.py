@@ -3,6 +3,8 @@
 Created on Wed Sep 16 14:55:35 2020
 
 @author: Maxi
+
+Build a dataframe with the crystal structures from the cif files for easy handling with the matminer lib.
 """
 
 import pandas as pd
@@ -35,11 +37,12 @@ def load_data(folder, arr):
     return df
 
 # specify abs path of folder, where you want to load the data from
-folder = r"C:\Python\Projects\Thesis\Test"
-arr = os.listdir('Test') # change folder name here
+folder = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs"
+arr = os.listdir('CIFs') # change folder name here
 
 df = load_data(folder, arr)
 df['name'] = arr # create column with the filenames in folder
+
 
 pd.to_pickle(df, './Discriptor_hfo2_del.pkl')
 
