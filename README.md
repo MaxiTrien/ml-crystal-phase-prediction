@@ -1,4 +1,4 @@
-# crystal-phase-prediction
+# ml-crystal-phase-prediction
 
 > Prediction of crystal phase from DFT data with cluster analysis and supervised learning methods.
 
