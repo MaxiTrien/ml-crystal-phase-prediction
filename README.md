@@ -26,5 +26,5 @@ materials data mining. Comput. Mater. Sci. 152, 60-69 (2018).
 
 ><a id="3">[3]</a> Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
 
-### Bachelor Thesis
-by Maximilian Trien
+### Contributors
+Maximilian Trien
