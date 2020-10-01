@@ -3,6 +3,9 @@
 Created on Fri Sep 11 12:20:12 2020
 
 @author: Maxi
+
+We want to change the hfo2 or zro2 oxigen atoms with Hf or Zr, so that we can 
+detect them better in an XRD scan. 
 """
 
 from ase.io import read, write
@@ -37,7 +40,7 @@ def change_spec_elements(folder, target_folder, arr, element):
             i = i + 1
             
         print(structure.get_chemical_symbols())
-        print(a)
+        print(j)
         target_path = os.sep.join([target_folder, file])
         write(target_path, structure)
         j = j + 1
