@@ -1,6 +1,6 @@
 # crystal-phase-prediction
 
-> Prediction of crystal phase with clusteranalysis and supervised learning. 
+> Prediction of crystal phase from DFT data with cluster analysis and supervised learning methods.
 
 ## Content: 
  
@@ -8,7 +8,7 @@
  - Data Exploration
  - Functional Data Analysis
  - Clusteranalysis
- - Data Reduction Methodes
+ - Data Reduction Methods
  - Visualization 
  
  ### Clone
