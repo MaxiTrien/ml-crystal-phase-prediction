@@ -46,7 +46,7 @@ def change_spec_elements(folder, target_folder, arr, element):
         j = j + 1
         
 # select the element you want to switch in crystal
-element = 'Hf'
+element = 'Zr'
 folder = r'C:\Python\Projects\crystal-phase-prediction\hfo2' # load data from this folder 
 arr = [f for f in os.listdir(folder) if not f.endswith('.ini')] # ignore hidden files in folder
 target_folder = r'C:\Python\Projects\crystal-phase-prediction\hfo2_del' # file where to store the new cif files
