@@ -7,8 +7,8 @@ import numpy as np
 from skued import powdersim
 #from skued import Crystal
 
-filename1 = r"C:\Users\Maxi\Desktop\pure_HfO2_t.cif"
-filename2 = r"C:\Users\Maxi\Desktop\Li_HfO2_inter_6.25_221_t.cif"
+filename1 = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs\Ag_HfO2_cat_3.125_222_m.cif"
+filename2 = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs\Ag_HfO2_cat_3.125_222_o.cif"
 
 
 
@@ -28,7 +28,7 @@ view(s)
 #print(s.get_cell()[:])
 
 # powder simulation with range of q 
-q = np.linspace(1, 7, 512)
+q = np.linspace(1, 5, 100)
 diff1 = powdersim(crys, q)
 diff2 = powdersim(pure_cry, q)
 
