@@ -4,7 +4,7 @@ Created on Thu Sep 10 14:42:06 2020
 
 @author: Maxi
 
-Classification with functional data
+classification with functional data
 """
 
 from ase.io import read
