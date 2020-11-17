@@ -47,7 +47,7 @@ def get_specs_crystal(path):
     s = read(path)
     position = s.get_positions()
     atomic_number = s.get_atomic_numbers()
-    unit_cell = s.get_cell()[:]
+    unit_cell = s.get_cell_lengths_and_angles()
     print('Postion:')
     print(position)
     print('Atomic Number:')
@@ -60,9 +60,9 @@ def get_specs_crystal(path):
 path1 = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs\Ag_HfO2_cat_3.125_222_m.cif"
 # path2 = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs_pure\pure_HfO2_p-o.cif"
 
-view_crystal(path1)
-pow_sim(path1)
-# get_specs_crystal(path1)
+# view_crystal(path1)
+# pow_sim(path1)
+get_specs_crystal(path1)
 
 
 

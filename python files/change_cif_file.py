@@ -15,16 +15,7 @@ import os
 def change_spec_elements(folder, target_folder, arr, element):
     '''
     Load cif files from folder into ase crystal objects, change all elements 
-    O with specific other elements
-    Args:
-        folder (string): Where we load the data from.
-        arr (list): List of cif filenames in folder.
-        x (nparray): representation of 1/angström for powder simulation.
-
-    Returns:
-        fd (datagrid): representation of intensity values and 1/angström
-        values in datagrid object.
-
+    O with specific other elements.
     '''
     filename_arr = []
     j = 0
