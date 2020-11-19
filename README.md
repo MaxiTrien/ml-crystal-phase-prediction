@@ -8,8 +8,8 @@
  - Data Exploration
  - Functional Data Analysis
  - Clusteranalysis
- - Data Reduction Methods
- - Visualization 
+ - Data Reduction Methods (PCA, NMF, TSNE)
+ - Visualization 2D, 3D
  
  ## Installation
  - Clone this repo to your local machine using `https://github.com/MaxiTrien/crystal-phase-prediction.git`
@@ -28,3 +28,4 @@ materials data mining. Comput. Mater. Sci. 152, 60-69 (2018).
 
 ### Contributors
 Maximilian Trien
+University of Applied Science Munich
