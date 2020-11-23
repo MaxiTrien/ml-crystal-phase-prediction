@@ -10,7 +10,7 @@ from pathlib import Path
 
 def view_crystal(cif_path):
     # visualize the crystal
-    s = read(path1)
+    s = read(cif_path)
     view(s, block=True)
 
 
@@ -57,12 +57,12 @@ def get_specs_crystal(path):
 
 
 
-path1 = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs\Ag_HfO2_cat_3.125_222_m.cif"
+path = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\package\Hf14LaO32Si_sc122\No14\11\geometry.in'
 # path2 = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\CIFs_pure\pure_HfO2_p-o.cif"
 
-# view_crystal(path1)
+view_crystal(path)
 # pow_sim(path1)
-get_specs_crystal(path1)
+get_specs_crystal(path)
 
 
 
