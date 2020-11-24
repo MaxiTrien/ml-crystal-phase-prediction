@@ -39,8 +39,8 @@ def change_angles(folder, target_folder, arr):
         j = j + 1
 
 
-folder = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\hfo2' # load data from this folder 
+folder = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\hfo2_La_del' # load data from this folder 
 arr = [f for f in os.listdir(folder) if not f.endswith('.ini')] # ignore hidden files in folder
-target_folder = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\hfo2_90_80_deg' # file where to store the new cif files
+target_folder = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\hfo2_La_del_ang' # file where to store the new cif files
 
 change_angles(folder, target_folder, arr)

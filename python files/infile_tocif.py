@@ -54,20 +54,4 @@ goal_path = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\package\h
 direct_path = load_path(path_main)
 create_cif(direct_path,goal_path)
 
-'''
 
-infile = read(pathfile)
-
-pathfolder_name = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\package\HfLaO'
-pathfolder_name_list = listdir(pathfolder_name)
-pathfolder_phase = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\package\HfLaO\Hf14La2O32_sc122'
-pathfolder_phase_list = listdir(pathfolder_phase)
-pathfolder_phase_list = natural_sort(pathfolder_phase_list)
-print(pathfolder_phase_list[0])
-
-outputfile = pathfolder_name_list[0] + 'm'+ '_1' + '.cif'
-final_folder = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\package\hfo2_La"
-target_path = os.sep.join([final_folder, outputfile])
-
-write(target_path, infile)
-'''
