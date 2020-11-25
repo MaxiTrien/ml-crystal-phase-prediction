@@ -27,18 +27,19 @@ def change_spec_elements(folder, target_folder, arr, element):
             if symbol == 'O':
                 structure.symbols[i] = element
             i = i + 1
-            
+
+
         print(structure.get_chemical_symbols())
         print(j)
         target_path = os.sep.join([target_folder, file])
         write(target_path, structure)
         j = j + 1
-        
-        
+
+
 # select the element you want to switch in crystal
 element = 'Hf'
 folder = r"C:\Python\Projects\crystal-phase-prediction\crystal_data\hfo2_La"  # load data from this folder 
-arr = [f for f in os.listdir(folder) if not f.endswith('.ini')] # ignore hidden files in folder
+arr = [f for f in os.listdir(folder) if not f.endswith('.ini')]  # ignore hidden files in folder
 target_folder = r'C:\Python\Projects\crystal-phase-prediction\crystal_data\hfo2_La_del' # file where to store the new cif files
 
 change_spec_elements(folder, target_folder, arr, element)
