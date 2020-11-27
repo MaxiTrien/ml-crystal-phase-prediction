@@ -41,7 +41,7 @@ def load_data(folder, arr):
 
 
 # specify abs path of folder, where you want to load the data from
-folder = (r"C:\Python\Projects\crystal-phase-prediction\data\crystal_data\hfo2_La_del_o")
+folder = (r"C:\Python\Projects\crystal-phase-prediction\data\crystal_data\hfo2_La_po")
 
 # change folder name here
 arr = [f for f in os.listdir(folder) if not f.endswith('.ini')]
@@ -50,4 +50,4 @@ df = load_data(folder, arr)
 df['name'] = arr  # create column with the filenames in folder
 
 # change name to dataset that you created
-pd.to_pickle(df, r"C:\Python\Projects\crystal-phase-prediction\data\pkl_files\structures\structure_df_hfo2_La_del_defects_o.pkl")
+pd.to_pickle(df, r"C:\Python\Projects\crystal-phase-prediction\data\pkl_files\structures\structure_df_hfo2_La_defects_po.pkl")
