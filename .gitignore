@@ -5,4 +5,4 @@ data/pkl_files/descriptors/xray_highdef_hfo2.pkl
 __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
-.vscode/
+.vscode/*
