@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pip" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba96523b-445a-4881-b18b-b407cac521a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ai4materials" />
+  </component>
+  <component name="ProjectId" id="1h33CfiQ7GpJaj7mjYQCqvyBQDP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="PythonConfigurationType" factoryName="Python">
+      <module name="Thesis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Thesis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba96523b-445a-4881-b18b-b407cac521a3" name="Default Changelist" comment="" />
+      <created>1599225823354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599225823354</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2282" y="132" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599226838801">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2282" y="132" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226838801" />
+    <state x="2509" y="214" width="670" height="562" key="EnvironmentVariablesDialog" timestamp="1599226146386">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2509" y="214" width="670" height="562" key="EnvironmentVariablesDialog/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226146386" />
+    <state x="2660" y="291" key="FileChooserDialogImpl" timestamp="1599226835954">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2660" y="291" key="FileChooserDialogImpl/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226835954" />
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1599226963940">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226963940" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1599226963940">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226963940" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1599226963940">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226963940" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1599226963940">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226963940" />
+    <state x="2381" y="169" key="SettingsEditor" timestamp="1599226384375">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2381" y="169" key="SettingsEditor/0.0.1280.689/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599226384375" />
+  </component>
+</project>
