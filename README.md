@@ -2,6 +2,17 @@
 
 > Prediction of crystal phase from DFT data with cluster analysis and supervised learning methods.
 
+## Instructions: 
+
+1. Select data from data/crystal_data/ folder
+2. For changing the crystal objects (atoms or angles) --> change_angles.py, change_oxygen.py
+    - Otherwise you can skip that step..
+3. From cif format build structure object
+    - File in other formats: convert to cif file with "infile_tocif.py"
+    - Then build structure object
+3. Select Descriptor XRD/PRDF (Build PRDF.ipynb, Build XRD.ipynb)
+4. Run specific algorithm (example: Kmeans_DR_XRD.ipynb)
+
 ## Content: 
  
  - Data Cleaning
