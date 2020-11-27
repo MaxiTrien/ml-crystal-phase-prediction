@@ -1,0 +1,8 @@
+
+data/pkl_files/descriptors/neutron_hfo2.pkl
+data/pkl_files/descriptors/xray_highdef_hfo2.pkl
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
