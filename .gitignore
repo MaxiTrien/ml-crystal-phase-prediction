@@ -5,4 +5,14 @@ data/pkl_files/descriptors/xray_highdef_hfo2.pkl
 __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
-.vscode/*
+.vscode/
+py_scripts/__pycache__/
+notebooks/__pycache__/
+notebooks/.ipynb_checkpoints/
+notebooks/unsupervised models/.ipynb_checkpoints/
+notebooks/supervised models/.ipynb_checkpoints/
+notebooks/unsupervised models/lanthan_defects/__pycache__/
+notebooks/unsupervised models/lanthan_defects/.ipynb_checkpoints/
+notebooks/unsupervised models/neutron_scattering/.ipynb_checkpoints/
+notebooks/unsupervised models/PRDF/__pycache__/
+notebooks/unsupervised models/XRD-Pattern/__pycache__/

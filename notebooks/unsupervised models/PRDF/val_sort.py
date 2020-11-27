@@ -74,3 +74,4 @@ def hyperparameter_testing(X, reduction_methode, hyperpar, labels_true):
     perf_dic = dict(zip(hyperpar, performance))
     print('Best value of performance: ' + str(max(perf_dic.values())) + ' Hyperparameter = ' + str(max(perf_dic, key=perf_dic.get)))
     print('Overview: ' + str(perf_dic))
+
