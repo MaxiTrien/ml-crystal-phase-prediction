@@ -35,7 +35,7 @@ def nmf_algo(X, comp):
 
 
 def tsne_algo(X, perplex):
-        '''Return the TSNE from Descriptor X.''' 
+    '''Return the TSNE from Descriptor X.''' 
     Xtsne = TSNE(n_components=3, perplexity=perplex).fit_transform(X)
     dftsne = pd.DataFrame(Xtsne)
     return dftsne
