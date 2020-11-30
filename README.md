@@ -37,6 +37,6 @@ K., Snyder, G. J., Foster, I., Jain, A., Matminer: An open source toolkit for
 materials data mining. Comput. Mater. Sci. 152, 60-69 (2018).
 
 ### Contributors
-Maximilian Trien
-At Laboratory for modeling and simulation
-University of Applied Science Munich
+Maximilian Trien \
+At Laboratory for modeling and simulation \
+University of Applied Science Munich \
