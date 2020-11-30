@@ -2,6 +2,9 @@
 
 > Prediction of crystal phase from DFT data with cluster analysis and supervised learning methods.
 
+
+![Alt text](2Dcluster_TSNE_xrd_low.png "Title")
+
 ## Instructions: 
 
 1. Select data from data/crystal_data/ folder
