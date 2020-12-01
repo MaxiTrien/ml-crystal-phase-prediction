@@ -6,14 +6,13 @@
 
 ## Instructions: 
 
-1. Select data from data/crystal_data/ folder
-2. For changing the crystal objects (atoms or angles): change_angles.py, change_oxygen.py
-    - Otherwise you can skip that step..
-3. From cif format build structure object
-    - File in other formats: convert to cif file with "infile_tocif.py"
-    - Then build structure object
-3. Select Descriptor XRD/PRDF (Build PRDF.ipynb, Build XRD.ipynb)
-4. Run specific algorithm (example: Kmeans_DR_XRD.ipynb)
+1. Select data from data folder
+2. For changing the crystal object (atoms or angles) use: [change_angles.py](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/py_scripts/change_angles.py), [change_oxygen.py](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/py_scripts/change_oxygen.py)
+3. From cif format build [structure object](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/py_scripts/df_build_descriptorsetup.py):
+    - File in other formats: convert to cif file with [infile_tocif.py](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/py_scripts/infile_tocif.py)
+    - Afterwards build structure object
+3. Select Descriptor XRD/PRDF in different specifications: [Build PRDF.ipynb](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/notebooks/unsupervised%20models/PRDF/Build%20PRDF.ipynb), [Build XRD.ipynb](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/notebooks/unsupervised%20models/XRD-Pattern/Build_XRD.ipynb)
+4. Run specific algorithm, for example: [Kmeans_DR_XRD.ipynb](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/notebooks/unsupervised%20models/XRD-Pattern/Kmeans_DR_XRD.ipynb)
 
 ## Content: 
  
