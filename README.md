@@ -2,7 +2,7 @@
 
 > Prediction of crystal phase from Hfo2/Zro2 data with cluster analysis and supervised learning methods.
 
-![Alt text](docs/2Dcluster_TSNE_xrd_low.png "Clusteranalysis")
+![Alt text](docs/recording.gif.png "Clusteranalysis")
 
 ## Instructions: 
 
