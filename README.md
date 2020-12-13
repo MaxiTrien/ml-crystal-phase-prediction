@@ -1,6 +1,6 @@
 # ml-crystal-phase-prediction
 
-> Prediction of crystal phase from Hfo2/Zro2 data with cluster analysis and supervised learning methods.
+> Prediction of crystal phase from Hfo2/Zro2 data with cluster analysis and supervised learning methods. Thesis can be found [here](https://github.com/MaxiTrien/ml-crystal-phase-prediction/blob/master/thesis/Verwendung%20eines%20Clustering-Algorithmus%20zur%20Phasenerkennung%20fuer%20dotiertes%20Hf%20und%20Zr.pdf).
 
 ![](docs/recording.gif)
 
