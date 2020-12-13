@@ -28,12 +28,15 @@
 
 ### Authors and acknowledgment
 
-><a id="1">[1]</a> L. P. René de Cotret, M. R. Otto, M. J. Stern. and B. J. Siwick, *An open-source software ecosystem for the interactive exploration of ultrafast electron scattering data*, Advanced Structural and Chemical Imaging 4:11 (2018) [DOI: 10.1186/s40679-018-0060-y.](https://ascimaging.springeropen.com/articles/10.1186/s40679-018-0060-y)
+><a id="1">[1]</a> Falkowski, M., Künneth, C., Materlik, R. et al. Unexpectedly large energy variations from dopant interactions in ferroelectric HfO2 from high-throughput ab initio calculations. npj Comput Mater 4, 73 (2018). https://doi.org/10.1038/s41524-018-0133-4
 
-><a id="2">[2]</a> Ward, L., Dunn, A., Faghaninia, A., Zimmermann, N. E. R., Bajaj, S., Wang, Q.,
+><a id="2">[2]</a> L. P. René de Cotret, M. R. Otto, M. J. Stern. and B. J. Siwick, *An open-source software ecosystem for the interactive exploration of ultrafast electron scattering data*, Advanced Structural and Chemical Imaging 4:11 (2018) [DOI: 10.1186/s40679-018-0060-y.](https://ascimaging.springeropen.com/articles/10.1186/s40679-018-0060-y)
+
+><a id="3">[3]</a> Ward, L., Dunn, A., Faghaninia, A., Zimmermann, N. E. R., Bajaj, S., Wang, Q.,
 Montoya, J. H., Chen, J., Bystrom, K., Dylla, M., Chard, K., Asta, M., Persson,
 K., Snyder, G. J., Foster, I., Jain, A., Matminer: An open source toolkit for
 materials data mining. Comput. Mater. Sci. 152, 60-69 (2018).
+
 
 ### Contributors
 Maximilian Trien \
