@@ -26,7 +26,7 @@
  ## Installation
  - Clone this repo to your local machine using `https://github.com/MaxiTrien/crystal-phase-prediction.git`
 
-### Authors and acknowledgment
+### Authors and Acknowledgment
 
 ><a id="1">[1]</a> Falkowski, M., Künneth, C., Materlik, R. et al. Unexpectedly large energy variations from dopant interactions in ferroelectric HfO2 from high-throughput ab initio calculations. npj Comput Mater 4, 73 (2018). https://doi.org/10.1038/s41524-018-0133-4
 
@@ -40,5 +40,5 @@ materials data mining. Comput. Mater. Sci. 152, 60-69 (2018).
 
 ### Contributors
 Maximilian Trien \
-At Laboratory for modeling and simulation \
+Laboratory for Modeling and Simulation \
 University of Applied Science Munich 
